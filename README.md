@@ -25,7 +25,7 @@ c_t &= \sum_{t'=1}^T \alpha_{t, t'} \cdot \tilde{h}_{t'}
 \end{aligned}
 $$
 
-Luong’s Attention:
+Luong's Attention:
 ---------------------
 $\large a_{i,j} = \frac{\exp(score(h_i, \bar{h}_j))}{\sum_{k=1}^{T_y} \exp(score(h_i, \bar{h}_k))}$
 
