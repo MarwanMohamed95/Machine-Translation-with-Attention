@@ -12,7 +12,7 @@ The attention mechanism allows the decoder to selectively focus on different par
 
 During training, the model is trained to minimize the cross-entropy loss between the predicted output sequence and the true output sequence. During inference, the model generates the output sequence by iteratively sampling the most likely output token at each time step, conditioned on the previous output tokens and the encoder input sequence.
 
-![](https://github.com/MarwanMohamed95/Machine-Translation-with-Attention/blob/main/attention_mechanism.jpg?raw=true)
+![](https://github.com/MarwanMohamed95/Neural-Machine-Translation-with-Attention/blob/main/attention_mechanism.jpg?raw=true)
 
 
 Bahdanau’s Attention:
