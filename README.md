@@ -15,7 +15,7 @@ During training, the model is trained to minimize the cross-entropy loss between
 ![](https://github.com/MarwanMohamed95/Machine-Translation-with-Attention/blob/main/attention_mechanism.jpg?raw=true)
 
 
-Bahdanau’s Attention]:
+Bahdanau’s Attention:
 ------------------------
 $$
 \begin{aligned}
