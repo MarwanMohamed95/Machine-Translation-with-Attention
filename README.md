@@ -21,15 +21,18 @@ $$
 \begin{aligned}
 e_{t, t'} &= v_a^T \cdot \tanh(W_a \cdot h_t + U_a \cdot \tilde{h}_{t'}) \\
 \alpha_{t, t'} &= \frac{\exp(e_{t, t'})}{\sum_{k=1}^T \exp(e_{t, k})} \\
-c_t &= \sum_{t'=1}^T \alpha_{t, t'} \cdot \tilde{h}_{t'}
+c_t &= \sum_{t'=1}^T \alpha_{t, t'} \cdot \tilde{h}_{t'} \\
 \end{aligned}
 $$
 
 Luong's Attention:
 ---------------------
+$$
 $\large a_{i,j} = \frac{\exp(score(h_i, \bar{h}_j))}{\sum_{k=1}^{T_y} \exp(score(h_i, \bar{h}_k))}$
+$$
 
 where
+
 $\large score(h_i, \bar{h}_j) = h_i^\top W_a \bar{h}_j$
 
 and
